@@ -1,4 +1,4 @@
-public class conta {
+public class Conta {
     private int agencia;
     private int conta;
     private String nomeCliente;
