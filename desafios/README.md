@@ -1,3 +1,7 @@
+### Modelagem e Diagramação de um Componente iPhone
+## Autor
+- [Lucas Sampaio](https://github.com/Like-a-stone)
+```mermaid
 classDiagram
 class ReprodutorMusical {
 +tocar()
@@ -5,8 +9,6 @@ class ReprodutorMusical {
 +selecionarMusica(String musica)
 }
 
-scss
-Copiar código
 class AparelhoTelefonico {
     +ligar(String numero)
     +atender()
@@ -43,3 +45,4 @@ NavegadorInternet ..|> Conexao
 NavegadorInternet ..|> ControleDeVolume
 AparelhoTelefonico ..|> ControleDeVolume
 AparelhoTelefonico ..|> Conexao
+```
